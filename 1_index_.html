@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style1.css">
   <link rel="shortcut icon" href="image copy 7.png" type="image/x-icon">
     <title> Gym Near Me in Pune - Find Gym in Pune | FITPass </title>
@@ -337,16 +339,52 @@
         </p>
 
         <div>
-            <p class="faq-question">
-                What do the membership plans include and how are they priced?
-                <i class="fa-solid fa-chevron-down"></i>
-            </p>
+          <div>
+            
+<div class="container my-4">
+  <h2 class="mb-4">Frequently Asked Questions</h2>
 
-            <p class="faq-question">
-                Can I get a trial or guest pass before committing to a FITPASS membership?
-                <i class="fa-solid fa-chevron-down"></i>
-            </p>
+  <div class="accordion" id="faqAccordion">
+    <!-- Question 1 -->
+    <div class="accordion-item">
+      <p class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+          What do the membership plans include and how are they priced?
+        <i class="fa-solid fa-chevron-down"></i>
+      </p>
+      <div id="faq1" class="collapse" data-bs-parent="#faqAccordion">
+        <div class="p-3">
+          <div><p>FITPASS offers the following membership plans:</p>
 
+<ul>
+	<li>Basic Plan (Reserve up to 5 workouts): Rs. 999*/ 1 month &nbsp;</li>
+	<li>Premium Plan (Unlimited workouts): Rs. 1599*/1 month &nbsp;</li>
+	<li>FITPASS (Unlimited workouts): Rs. 3999*/ 3 months</li>
+</ul>
+
+<p>The above membership plans include the corresponding number of workout slots that enable you to engage in a wide range of exercise options like Zumba, yoga, CrossFit, strength training, pilates, callisthenics and many more.</p>
+</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Question 2 -->
+    <div class="accordion-item">
+      <p class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+      Can I get a trial or guest pass before committing to a FITPASS membership?
+        <i class="fa-solid fa-chevron-down"></i>
+      </p>
+      <div id="faq2" class="collapse" data-bs-parent="#faqAccordion">
+        <div class="p-3">
+No, FITPASS currently does not offer a trial or guest pass for workouts. However, if you wish to exercise at a particular gym for a short duration, you can avail of our monthly offer plan for Rs.999* and visit a fitness centre of your choice upto 5 times a month.
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
+
+          </div>
             <h3 class="contact-info">
                 Can't find an answer? Reach out to our team directly at care@fitpass.co.in or dial 1800-5714-466.
             </h3>
@@ -829,7 +867,7 @@
 </footer>
 
     </div>
-   
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
      <script>
         function openMenu() {
             document.getElementById('mobileMenu').classList.add('active');
